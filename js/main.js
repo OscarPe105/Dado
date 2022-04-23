@@ -8,7 +8,7 @@ $('#returnBtn').click(function() {
     location.href="../index.html";
 });
 
-// **************** FUNCIONES GENERALES PARA EL PROYECTO  *****************//
+// +++++++++++++++++FUNCIONES GENERALES PARA EL PROYECTO +++++++++++++
 
 // FUNCIÓN QUE ME GENERA UN NÚMERO ALEATORIO ENTERO AMBOS INCLUSIVOS
 function getNumRand(min, max) {       
@@ -33,3 +33,17 @@ function soloNumeros(e) {
     var key = window.Event ? e.which : e.keyCode;       
     return ((key >= 48 && key <= 57) || (key==8) || (key==45));
 }
+
+
+
+// funciones
+function captura(){
+    var namepersone=document.getElementById("name").value;
+    var apuesta=document.getElementById("apuesta").value;
+    var cantidad=document.getElementById("cantidad").value;
+    alert(" Tu nombre :"+ namepersone + "\n Numero que apuestas :" + apuesta + "\n Cantidad de efectivo $ :" + cantidad +
+     "\n \n Estas listo para jugar ?"); 
+}
+
+
+

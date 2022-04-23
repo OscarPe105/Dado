@@ -37,34 +37,6 @@ function MostrarNumerosGenerados(ArraySend){
     };    
 }
 
-// MUESTRA EL HISTORIAL DE TODOS LOS NÚMEROS GENERADOS
-function MostrarHistorial(ArraySend){
-    // SE LIMPIAN LOS CAMPOS
-    $('#historial').html(' ');
-    $('#CantHistory').html('0');
-
-    // SE CREA LA VARIBALE QUE GUARDARÁ TODOS LOS NÚMEROS 
-    var StringHistorial = ""; 
-
-    var contador = 0;
-
-    ArraySend.forEach(element => {        
-        contador ++;
-        if(contador == ArraySend.length){
-            StringHistorial += `<button class="btn btn-success btn-sm mr-2 mb-2">
-                                ${element}
-                            </button>`;
-        }
-        else{
-            StringHistorial += `<button class="btn btn-dark btn-sm mr-2 mb-2">
-                                ${element}
-                            </button>`;
-        }
-    });    
-
-    $('#historial').html(StringHistorial);
-    $('#CantHistory').html(ArraySend.length);
-}
 
 // BOTON GENERAR NÚMERO,
 $('#FormAleatorio').bind("submit", function(){
