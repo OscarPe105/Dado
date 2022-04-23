@@ -1,0 +1,80 @@
+/* IMPORTA LA FUENTE GUGI DE GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+/* EL BODY Y SU COLOR PARA EL PROYECTO */
+body{
+    background-color: #DDDDDD ;
+
+}
+
+/* ESTILOS PARA NAV  EN EL INDEX MENU */
+.nav{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item a h2 {
+    color: #34c926;
+    font-family: 'Gugi', cursive;
+    margin: 0;
+}
+
+/* ESTILOS PARA NAV BAR */
+.navbar-brand{
+    color: #3664F4;
+    font-size: 1.6rem;
+    font-family: 'Gugi', cursive;
+    margin: 0;
+}
+
+/* ESTILOS DEL CONTENT-MAIN  */
+.content-main{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: justify;
+    min-height: 90vh;
+}
+
+/* EL FOOTER PARA EL PROYECTO */
+.footer{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+
+.footer-copyright a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #3664F4;
+    font-weight: 500;
+}
+
+/* ************************** */
+/* ESTILOS PARA LAS TARJETAS MENU INDEX  */
+.card-header b{
+    font-family: 'Gugi', cursive;
+    margin-bottom: 0;    
+}
+
+.card{
+    min-height: 200px;   
+}
+
+.card-body i{
+    font-size: 5rem;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: 800;
+}
+/**DADO*/
+.dado{
+    width: 70%;
+}
